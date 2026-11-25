@@ -1,0 +1,552 @@
+<!DOCTYPE html><html lang="id"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"><meta content="mobile_tab" name="shell-type"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{width:100%;margin:0;padding:0;background-color:#fbf9f5;}body{overscroll-behavior-y:none;-webkit-tap-highlight-color:transparent;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"background":"#fbf9f5","primary-container":"#1b3b48","on-tertiary-container":"#a8a08c","inverse-primary":"#abcbdc","surface-dim":"#dbdad6","surface-tint":"#446371","secondary":"#9a442d","surface-container-highest":"#e4e2de","on-error":"#ffffff","tertiary-container":"#3c3728","on-error-container":"#93000a","on-primary-fixed-variant":"#2c4b58","on-secondary":"#ffffff","inverse-on-surface":"#f2f0ed","on-surface":"#1b1c1a","on-primary":"#ffffff","on-tertiary-fixed-variant":"#4c4636","surface-container-low":"#f5f3ef","secondary-container":"#fc9174","on-secondary-fixed-variant":"#7c2e19","outline":"#72787b","tertiary-fixed-dim":"#cfc6b0","on-secondary-fixed":"#3c0800","on-tertiary":"#ffffff","tertiary-fixed":"#ece2cc","on-primary-fixed":"#001f2a","on-tertiary-fixed":"#201b0e","surface-variant":"#e4e2de","surface-bright":"#fbf9f5","surface-container":"#efeeea","on-background":"#1b1c1a","tertiary":"#262214","primary":"#012532","secondary-fixed-dim":"#ffb4a1","inverse-surface":"#30312e","on-primary-container":"#85a5b4","surface-container-lowest":"#ffffff","error":"#ba1a1a","secondary-fixed":"#ffdbd2","outline-variant":"#c2c7cb","on-surface-variant":"#42484b","error-container":"#ffdad6","surface-container-high":"#eae8e4","primary-fixed":"#c7e7f8","primary-fixed-dim":"#abcbdc","surface":"#fbf9f5","on-secondary-container":"#742814"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"gutter-mobile":"0.75rem","space-lg":"1.5rem","space-sm":"0.5rem","space-xs":"0.25rem","space-xl":"2.5rem","space-md":"1rem","margin-mobile":"1rem","gutter":"1rem","margin":"1.5rem"},fontFamily:{"body-sm":["Plus Jakarta Sans"],"headline-lg":["Playfair Display"],"display-lg":["Playfair Display"],"headline-sm":["Playfair Display"],"label-sm":["Plus Jakarta Sans"],"headline-md":["Playfair Display"],"title-md":["Plus Jakarta Sans"],"display-md":["Playfair Display"],"headline-lg-mobile":["Playfair Display"],"label-lg":["Plus Jakarta Sans"],"title-sm":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"label-md":["Plus Jakarta Sans"],"title-lg":["Plus Jakarta Sans"]},fontSize:{"body-sm":["12px",{"lineHeight":"18px","fontWeight":"400"}],"headline-lg":["30px",{"lineHeight":"38px","fontWeight":"600"}],"display-lg":["48px",{"lineHeight":"56px","letterSpacing":"-0.02em","fontWeight":"600"}],"headline-sm":["18px",{"lineHeight":"24px","fontWeight":"500"}],"label-sm":["10px",{"lineHeight":"14px","letterSpacing":"0.08em","fontWeight":"700"}],"headline-md":["22px",{"lineHeight":"28px","fontWeight":"500"}],"title-md":["16px",{"lineHeight":"22px","fontWeight":"600"}],"display-md":["36px",{"lineHeight":"44px","letterSpacing":"-0.01em","fontWeight":"600"}],"headline-lg-mobile":["26px",{"lineHeight":"32px","fontWeight":"600"}],"label-lg":["13px",{"lineHeight":"18px","letterSpacing":"0.04em","fontWeight":"600"}],"title-sm":["14px",{"lineHeight":"20px","fontWeight":"600"}],"body-md":["14px",{"lineHeight":"22px","fontWeight":"400"}],"body-lg":["16px",{"lineHeight":"26px","fontWeight":"400"}],"label-md":["11px",{"lineHeight":"16px","letterSpacing":"0.06em","fontWeight":"600"}],"title-lg":["20px",{"lineHeight":"26px","fontWeight":"600"}]}}}};</script></head><body class="bg-surface font-body-md text-on-surface antialiased min-h-screen flex flex-col"><header class="fixed top-0 inset-x-0 z-50 bg-surface/85 backdrop-blur-xl pt-safe shadow-[0_1px_8px_rgba(27,59,72,0.05)]"><div class="h-16 px-space-md flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm min-w-0"><img alt="Lunara Travel" class="h-9 w-auto object-contain flex-shrink-0" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDs8JRs679_bx-iyxp48iunmtNatGAi7j0b92UpF5P94V9YhTuDVOCELNPaecxeYhH6qI7Trae_2a2ID2lnLwVIZb_bpSriMNYp8OIF5OwYT6_lJKpetUuijZUvquI3tS2KKX25xG37co2weJvmZHNTgIK0DPpSiRoRek1awu05z4q5vk1588lFehloaS6jIBLPZ80Zox0N8E5mJP729hNhe8qILB-wgX5Y9x45MNUgWFqZA2AZS5XW"><div class="flex flex-col min-w-0"><div class="flex items-center gap-1.5"><span class="font-headline-md text-headline-sm text-primary tracking-tight truncate">Lunara Travel</span><span class="w-1.5 h-1.5 rounded-full bg-secondary-container animate-pulse"></span></div><span class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant/75 truncate">Katalog Tour &amp; Destinasi</span></div></div><div class="flex items-center gap-space-xs flex-shrink-0"><button aria-label="Pemberitahuan" class="w-11 h-11 flex items-center justify-center rounded-full text-primary hover:bg-surface-container transition-colors relative"><span class="material-symbols-outlined text-[22px]">notifications</span><span class="absolute top-2.5 right-2.5 w-2 h-2 rounded-full bg-secondary"></span></button><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shadow-sm ml-1"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex flex-col relative w-full pt-16 pb-28 bg-surface min-h-screen"><div class="flex flex-col w-full">
+<!-- Editorial Intro & Warm Ambient Header Frame -->
+<div class="px-space-md pt-4 pb-2">
+<div class="flex items-baseline justify-between">
+<span class="font-label-md text-label-md uppercase tracking-wider text-secondary">Katalog &amp; Jurnal Pantai</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant/80 bg-surface-container-high px-2 py-0.5 rounded-full">4 Destinasi Terdata</span>
+</div>
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile text-primary mt-1">Eksplorasi Pesisir</h1>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1 leading-relaxed">
+      Kompilasi jejak langkah pantai impian dan catatan kunjungan ombak nusantara.
+    </p>
+</div>
+<!-- Search & Filter Section -->
+<div class="px-space-md space-y-3 mt-2">
+<!-- Search Bar with Coastal Discovery Styling -->
+<div class="relative flex items-center bg-surface-container rounded-full px-4 py-2.5 shadow-[0_2px_8px_rgba(27,59,72,0.04)]">
+<span class="material-symbols-outlined text-primary-container/70 text-[20px] mr-2">search</span>
+<input class="bg-transparent text-primary placeholder:text-primary-container/45 font-body-md text-body-md w-full focus:outline-none" id="search-input" placeholder="Cari pantai atau kabupaten..." type="text">
+<button aria-label="Buka Filter Khusus" class="w-7 h-7 rounded-full bg-surface-container-high flex items-center justify-center text-primary-container/80 hover:bg-surface-dim transition-colors">
+<span class="material-symbols-outlined text-[16px]">tune</span>
+</button>
+</div>
+<!-- Filter Chips (Semua, Ingin Dikunjungi, Sudah Dikunjungi) -->
+<div class="flex items-center gap-2 overflow-x-auto py-1 no-scrollbar text-nowrap">
+<button class="filter-chip px-3.5 py-1.5 rounded-full font-label-md text-label-md transition-all duration-200 bg-primary text-on-primary shadow-sm" data-filter="semua" onclick="setFilter('semua', this)">
+        Semua (4)
+      </button>
+<button class="filter-chip px-3.5 py-1.5 rounded-full font-label-md text-label-md transition-all duration-200 bg-surface-container text-on-surface-variant hover:bg-surface-container-high" data-filter="ingin" onclick="setFilter('ingin', this)">
+<span class="w-1.5 h-1.5 rounded-full inline-block bg-secondary-container mr-1.5"></span>Ingin Dikunjungi (2)
+      </button>
+<button class="filter-chip px-3.5 py-1.5 rounded-full font-label-md text-label-md transition-all duration-200 bg-surface-container text-on-surface-variant hover:bg-surface-container-high" data-filter="sudah" onclick="setFilter('sudah', this)">
+<span class="w-1.5 h-1.5 rounded-full inline-block bg-surface-tint mr-1.5"></span>Sudah Dikunjungi (2)
+      </button>
+</div>
+<!-- Sort Selector Bar -->
+<div class="flex items-center justify-between pt-1">
+<div class="flex items-center gap-1.5 text-on-surface-variant">
+<span class="material-symbols-outlined text-[16px]">swap_vert</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider">Urutkan Berdasarkan</span>
+</div>
+<div class="relative">
+<select class="appearance-none bg-surface-container-low font-title-sm text-title-sm text-primary py-1 pl-3 pr-7 rounded-lg focus:outline-none cursor-pointer" id="sort-select" onchange="sortCards(this.value)">
+<option value="terdekat">Terdekat</option>
+<option value="terbaru">Terbaru</option>
+<option value="rating">Rating Tertinggi</option>
+</select>
+<span class="material-symbols-outlined absolute right-1.5 top-1.5 text-[16px] pointer-events-none text-primary">expand_more</span>
+</div>
+</div>
+</div>
+<!-- Swipe hint banner -->
+<div class="px-space-md mt-3">
+<div class="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-surface-container-low text-on-surface-variant/80">
+<span class="material-symbols-outlined text-[15px] text-secondary">swipe_left</span>
+<span class="font-label-sm text-label-sm">Geser kartu ke kiri untuk opsi hapus atau arsipkan</span>
+</div>
+</div>
+<!-- Destination Cards Stack -->
+<div class="px-space-md space-y-4 mt-3" id="beach-card-list">
+<!-- CARD 1: Pantai Kelingking -->
+<div class="beach-card relative overflow-hidden rounded-xl bg-surface-container-lowest shadow-[0_6px_20px_rgba(27,59,72,0.06)]" data-date="2024-03-01" data-distance="8.4" data-id="1" data-rating="4.9" data-status="sudah">
+<!-- Swipe Action Underlay (Delete / Action) -->
+<div class="absolute inset-y-0 right-0 w-28 bg-error flex flex-col items-center justify-center text-on-error transition-all" onclick="confirmDelete(1)">
+<span class="material-symbols-outlined text-[24px]">delete</span>
+<span class="font-label-sm text-label-sm mt-1 font-semibold">Hapus</span>
+</div>
+<!-- Card Foreground Content -->
+<div class="card-content relative bg-surface-container-low transition-transform duration-200 touch-pan-y">
+<div class="relative h-44 w-full overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Dramatic aerial drone view of Kelingking T-Rex cliff at Nusa Penida Bali with turquoise water, fine sandy beach cove, and sunlit coastal rock faces with subtle editorial tones" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAiAFDG8W1-eDtivVMKs-8bZBnG9oLCplmJbVEk7opyjb3EKqpdpzdwo7TQuyXknaBBzTl2H6gvUTYWqKelt2vpOpQWtLzqA98Z7vXVMjFh2F2RzcXqkE3eRhvOQTIJoKVO_kSjDaR0N_Vc3YdGJ-hczXu6uSLfmgw8DGse4wkJljYcE9ftCrKwVaDTZ4Dosmq3BXyfd583y67sCp21hHX9C-iq5jfmhnYPH7sTPGA">
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent"></div>
+<!-- Badges top row -->
+<div class="absolute top-3 inset-x-3 flex items-center justify-between">
+<span class="bg-surface-tint text-on-primary font-label-sm text-label-sm px-2.5 py-1 rounded-full uppercase tracking-wider backdrop-blur-md shadow-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px]" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+              Sudah Dikunjungi
+            </span>
+<div class="flex items-center gap-1 bg-surface-container-lowest/90 backdrop-blur-md px-2 py-0.5 rounded-full text-primary shadow-sm">
+<span class="material-symbols-outlined text-[14px] text-secondary" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-title-sm text-title-sm">4.9</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">(340)</span>
+</div>
+</div>
+<!-- Bottom Title overlay -->
+<div class="absolute bottom-3 left-3 right-3 text-on-primary">
+<span class="font-label-sm text-label-sm text-secondary-fixed tracking-wide uppercase">Tebing &amp; Karang</span>
+<h2 class="font-headline-sm text-headline-sm text-on-primary leading-tight drop-shadow-sm">Pantai Kelingking</h2>
+<div class="flex items-center gap-1 text-on-primary/90 mt-0.5">
+<span class="material-symbols-outlined text-[14px]">place</span>
+<span class="font-body-sm text-body-sm truncate">Nusa Penida, Klungkung, Bali</span>
+</div>
+</div>
+</div>
+<!-- Meta info & Actions -->
+<div class="p-space-md">
+<div class="grid grid-cols-2 gap-2 text-on-surface pb-3">
+<div class="flex items-center gap-2 bg-surface-container px-3 py-2 rounded-lg">
+<span class="material-symbols-outlined text-[18px] text-primary">near_me</span>
+<div>
+<p class="font-label-sm text-label-sm text-on-surface-variant uppercase">Jarak Tempuh</p>
+<p class="font-title-sm text-title-sm text-primary">8.4 km</p>
+</div>
+</div>
+<div class="flex items-center gap-2 bg-surface-container px-3 py-2 rounded-lg">
+<span class="material-symbols-outlined text-[18px] text-primary">confirmation_number</span>
+<div>
+<p class="font-label-sm text-label-sm text-on-surface-variant uppercase">Tiket Masuk</p>
+<p class="font-title-sm text-title-sm text-primary">Rp 25.000</p>
+</div>
+</div>
+</div>
+<div class="flex items-center justify-between pt-1">
+<div class="flex items-center gap-1.5 text-on-surface-variant text-body-sm font-body-sm">
+<span class="material-symbols-outlined text-[16px] text-secondary">history_edu</span>
+<span>1 jurnal catatan tersimpan</span>
+</div>
+<div class="flex items-center gap-1.5">
+<button aria-label="Simpan ke Bookmark" class="w-9 h-9 rounded-full bg-surface-container flex items-center justify-center text-primary hover:bg-surface-dim transition-colors" onclick="toggleBookmark(this)">
+<span class="material-symbols-outlined text-[19px]">bookmark</span>
+</button>
+<a aria-label="Navigasi ke Pantai Kelingking" class="w-9 h-9 rounded-full bg-primary-container text-on-primary flex items-center justify-center shadow-sm hover:scale-105 active:scale-95 transition-transform" data-path="peta-pantai" href="#">
+<span class="material-symbols-outlined text-[18px]">directions</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- CARD 2: Pantai Tanjung Aan -->
+<div class="beach-card relative overflow-hidden rounded-xl bg-surface-container-lowest shadow-[0_6px_20px_rgba(27,59,72,0.06)]" data-date="2024-04-10" data-distance="15.2" data-id="2" data-rating="4.8" data-status="ingin">
+<!-- Swipe Action Underlay -->
+<div class="absolute inset-y-0 right-0 w-28 bg-error flex flex-col items-center justify-center text-on-error transition-all" onclick="confirmDelete(2)">
+<span class="material-symbols-outlined text-[24px]">delete</span>
+<span class="font-label-sm text-label-sm mt-1 font-semibold">Hapus</span>
+</div>
+<!-- Card Foreground Content -->
+<div class="card-content relative bg-surface-container-low transition-transform duration-200 touch-pan-y">
+<div class="relative h-44 w-full overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Serene panoramic view of Tanjung Aan Beach in Lombok with uniquely rounded pepper grain sand, rolling emerald green hills, and tranquil turquoise bay water under golden afternoon sunshine" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDtTX048eozSQsvM2BqM8yVJJeOJPvwXA2yFQKWv2g8PDx3iephI4QXWkhvkVWzcv_L8dE6IlsjQV0pZcl5T9dWmimErzPEVrbUPewxK9DEGPCPaYGc-hyuppT5iznzXg11JH-d_Efn311AhRdcugZpjda6KeUfIr3DgDNLK49E39V0nqxmURS7DWblaxOL7z-27rEM1ULvFwSMquR175lyfEsEvJnqKwszE5TxR-k">
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent"></div>
+<div class="absolute top-3 inset-x-3 flex items-center justify-between">
+<span class="bg-secondary-container text-on-secondary-container font-label-sm text-label-sm px-2.5 py-1 rounded-full uppercase tracking-wider backdrop-blur-md shadow-sm flex items-center gap-1 font-semibold">
+<span class="material-symbols-outlined text-[13px]">favorite</span>
+              Ingin Dikunjungi
+            </span>
+<div class="flex items-center gap-1 bg-surface-container-lowest/90 backdrop-blur-md px-2 py-0.5 rounded-full text-primary shadow-sm">
+<span class="material-symbols-outlined text-[14px] text-secondary" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-title-sm text-title-sm">4.8</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">(182)</span>
+</div>
+</div>
+<div class="absolute bottom-3 left-3 right-3 text-on-primary">
+<span class="font-label-sm text-label-sm text-secondary-fixed tracking-wide uppercase">Pasir Merica &amp; Teluk</span>
+<h2 class="font-headline-sm text-headline-sm text-on-primary leading-tight drop-shadow-sm">Pantai Tanjung Aan</h2>
+<div class="flex items-center gap-1 text-on-primary/90 mt-0.5">
+<span class="material-symbols-outlined text-[14px]">place</span>
+<span class="font-body-sm text-body-sm truncate">Lombok Tengah, Nusa Tenggara Barat</span>
+</div>
+</div>
+</div>
+<div class="p-space-md">
+<div class="grid grid-cols-2 gap-2 text-on-surface pb-3">
+<div class="flex items-center gap-2 bg-surface-container px-3 py-2 rounded-lg">
+<span class="material-symbols-outlined text-[18px] text-primary">near_me</span>
+<div>
+<p class="font-label-sm text-label-sm text-on-surface-variant uppercase">Jarak Tempuh</p>
+<p class="font-title-sm text-title-sm text-primary">15.2 km</p>
+</div>
+</div>
+<div class="flex items-center gap-2 bg-surface-container px-3 py-2 rounded-lg">
+<span class="material-symbols-outlined text-[18px] text-primary">confirmation_number</span>
+<div>
+<p class="font-label-sm text-label-sm text-on-surface-variant uppercase">Tiket Masuk</p>
+<p class="font-title-sm text-title-sm text-primary">Rp 10.000</p>
+</div>
+</div>
+</div>
+<div class="flex items-center justify-between pt-1">
+<div class="flex items-center gap-1.5 text-on-surface-variant text-body-sm font-body-sm">
+<span class="material-symbols-outlined text-[16px] text-secondary">wb_sunny</span>
+<span>Ideal untuk santai &amp; berenang</span>
+</div>
+<div class="flex items-center gap-1.5">
+<button aria-label="Simpan ke Bookmark" class="w-9 h-9 rounded-full bg-surface-container flex items-center justify-center text-secondary hover:bg-surface-dim transition-colors" onclick="toggleBookmark(this)">
+<span class="material-symbols-outlined text-[19px]" style="font-variation-settings: 'FILL' 1;">bookmark</span>
+</button>
+<a aria-label="Navigasi ke Pantai Tanjung Aan" class="w-9 h-9 rounded-full bg-primary-container text-on-primary flex items-center justify-center shadow-sm hover:scale-105 active:scale-95 transition-transform" data-path="peta-pantai" href="#">
+<span class="material-symbols-outlined text-[18px]">directions</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- CARD 3: Pantai Timang -->
+<div class="beach-card relative overflow-hidden rounded-xl bg-surface-container-lowest shadow-[0_6px_20px_rgba(27,59,72,0.06)]" data-date="2024-02-18" data-distance="45.0" data-id="3" data-rating="4.7" data-status="ingin">
+<!-- Swipe Action Underlay -->
+<div class="absolute inset-y-0 right-0 w-28 bg-error flex flex-col items-center justify-center text-on-error transition-all" onclick="confirmDelete(3)">
+<span class="material-symbols-outlined text-[24px]">delete</span>
+<span class="font-label-sm text-label-sm mt-1 font-semibold">Hapus</span>
+</div>
+<!-- Card Foreground Content -->
+<div class="card-content relative bg-surface-container-low transition-transform duration-200 touch-pan-y">
+<div class="relative h-44 w-full overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Rugged rocky coastal cliffs of Timang Beach Yogyakarta with iconic wooden cable cart gondola crossing violently crashing ocean waves to offshore islet during late morning light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAL-tUHVSovTrlSevLue8AX9anzRahOJKATKaYinYv7mqiAwkCxMdtz0AheiGR__oSMj-HddvHn08XEt2uV9_WrRA9nXDi4jwjkrKd6oELMSi-usOaIVSUrDNYK9wRGuLwgMQ_keLeOE_dCxSRC1vQih8mMz5qpzkaYEKLgOO1DdZJV2UvUEoje-eUL9LKiuadHTLSQSi721ZgabFqvJ4ScmdOJdsYPOsoWOCI7a6s">
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent"></div>
+<div class="absolute top-3 inset-x-3 flex items-center justify-between">
+<span class="bg-secondary-container text-on-secondary-container font-label-sm text-label-sm px-2.5 py-1 rounded-full uppercase tracking-wider backdrop-blur-md shadow-sm flex items-center gap-1 font-semibold">
+<span class="material-symbols-outlined text-[13px]">favorite</span>
+              Ingin Dikunjungi
+            </span>
+<div class="flex items-center gap-1 bg-surface-container-lowest/90 backdrop-blur-md px-2 py-0.5 rounded-full text-primary shadow-sm">
+<span class="material-symbols-outlined text-[14px] text-secondary" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-title-sm text-title-sm">4.7</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">(215)</span>
+</div>
+</div>
+<div class="absolute bottom-3 left-3 right-3 text-on-primary">
+<span class="font-label-sm text-label-sm text-secondary-fixed tracking-wide uppercase">Hidden Gem &amp; Gondola</span>
+<h2 class="font-headline-sm text-headline-sm text-on-primary leading-tight drop-shadow-sm">Pantai Timang</h2>
+<div class="flex items-center gap-1 text-on-primary/90 mt-0.5">
+<span class="material-symbols-outlined text-[14px]">place</span>
+<span class="font-body-sm text-body-sm truncate">Gunungkidul, D.I. Yogyakarta</span>
+</div>
+</div>
+</div>
+<div class="p-space-md">
+<div class="grid grid-cols-2 gap-2 text-on-surface pb-3">
+<div class="flex items-center gap-2 bg-surface-container px-3 py-2 rounded-lg">
+<span class="material-symbols-outlined text-[18px] text-primary">near_me</span>
+<div>
+<p class="font-label-sm text-label-sm text-on-surface-variant uppercase">Jarak Tempuh</p>
+<p class="font-title-sm text-title-sm text-primary">45.0 km</p>
+</div>
+</div>
+<div class="flex items-center gap-2 bg-surface-container px-3 py-2 rounded-lg">
+<span class="material-symbols-outlined text-[18px] text-primary">confirmation_number</span>
+<div class="min-w-0">
+<p class="font-label-sm text-label-sm text-on-surface-variant uppercase">Tiket Masuk</p>
+<p class="font-title-sm text-title-sm text-primary truncate">Rp 15.000 <span class="font-label-sm text-label-sm text-on-surface-variant font-normal">(Gondola 150k)</span></p>
+</div>
+</div>
+</div>
+<div class="flex items-center justify-between pt-1">
+<div class="flex items-center gap-1.5 text-on-surface-variant text-body-sm font-body-sm">
+<span class="material-symbols-outlined text-[16px] text-secondary">kayaking</span>
+<span>Wahana ekstrem ombak selatan</span>
+</div>
+<div class="flex items-center gap-1.5">
+<button aria-label="Simpan ke Bookmark" class="w-9 h-9 rounded-full bg-surface-container flex items-center justify-center text-primary hover:bg-surface-dim transition-colors" onclick="toggleBookmark(this)">
+<span class="material-symbols-outlined text-[19px]">bookmark</span>
+</button>
+<a aria-label="Navigasi ke Pantai Timang" class="w-9 h-9 rounded-full bg-primary-container text-on-primary flex items-center justify-center shadow-sm hover:scale-105 active:scale-95 transition-transform" data-path="peta-pantai" href="#">
+<span class="material-symbols-outlined text-[18px]">directions</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- CARD 4: Pantai Pulau Merah -->
+<div class="beach-card relative overflow-hidden rounded-xl bg-surface-container-lowest shadow-[0_6px_20px_rgba(27,59,72,0.06)]" data-date="2024-01-20" data-distance="112.0" data-id="4" data-rating="4.6" data-status="sudah">
+<!-- Swipe Action Underlay -->
+<div class="absolute inset-y-0 right-0 w-28 bg-error flex flex-col items-center justify-center text-on-error transition-all" onclick="confirmDelete(4)">
+<span class="material-symbols-outlined text-[24px]">delete</span>
+<span class="font-label-sm text-label-sm mt-1 font-semibold">Hapus</span>
+</div>
+<!-- Card Foreground Content -->
+<div class="card-content relative bg-surface-container-low transition-transform duration-200 touch-pan-y">
+<div class="relative h-44 w-full overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Warm sunset lighting on Pulau Merah Beach Banyuwangi showing distinctive red soil dome-shaped hill island in ocean water, wet sand reflecting amber twilight hues" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCSAd7UEUbGquOKgDqGTJo-U3x7bxZQvaT3Svj8qyJ8j_4WFadz1a-pyheoMnqnkOmSKPPVr4gs9I2tCAweALha0kjWyfZagEedmx1n1Up-LjsGe6uhcyKnpJ7EJZ-Y7kT9fbJzQaqnAPEsqrUN1bMRCLyJViDIopjRUucAjvUtieHevgD22BTm_BPVsXL3mey7nQjp2Oq-3pTVRqwxeLbTLe7-PGgKvz88AybqmAU">
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent"></div>
+<div class="absolute top-3 inset-x-3 flex items-center justify-between">
+<span class="bg-surface-tint text-on-primary font-label-sm text-label-sm px-2.5 py-1 rounded-full uppercase tracking-wider backdrop-blur-md shadow-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px]" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+              Sudah Dikunjungi
+            </span>
+<div class="flex items-center gap-1 bg-surface-container-lowest/90 backdrop-blur-md px-2 py-0.5 rounded-full text-primary shadow-sm">
+<span class="material-symbols-outlined text-[14px] text-secondary" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-title-sm text-title-sm">4.6</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">(154)</span>
+</div>
+</div>
+<div class="absolute bottom-3 left-3 right-3 text-on-primary">
+<span class="font-label-sm text-label-sm text-secondary-fixed tracking-wide uppercase">Sunset Spot &amp; Surfing</span>
+<h2 class="font-headline-sm text-headline-sm text-on-primary leading-tight drop-shadow-sm">Pantai Pulau Merah</h2>
+<div class="flex items-center gap-1 text-on-primary/90 mt-0.5">
+<span class="material-symbols-outlined text-[14px]">place</span>
+<span class="font-body-sm text-body-sm truncate">Pesanggaran, Banyuwangi, Jawa Timur</span>
+</div>
+</div>
+</div>
+<div class="p-space-md">
+<div class="grid grid-cols-2 gap-2 text-on-surface pb-3">
+<div class="flex items-center gap-2 bg-surface-container px-3 py-2 rounded-lg">
+<span class="material-symbols-outlined text-[18px] text-primary">near_me</span>
+<div>
+<p class="font-label-sm text-label-sm text-on-surface-variant uppercase">Jarak Tempuh</p>
+<p class="font-title-sm text-title-sm text-primary">112 km</p>
+</div>
+</div>
+<div class="flex items-center gap-2 bg-surface-container px-3 py-2 rounded-lg">
+<span class="material-symbols-outlined text-[18px] text-primary">confirmation_number</span>
+<div>
+<p class="font-label-sm text-label-sm text-on-surface-variant uppercase">Tiket Masuk</p>
+<p class="font-title-sm text-title-sm text-primary">Rp 10.000</p>
+</div>
+</div>
+</div>
+<div class="flex items-center justify-between pt-1">
+<div class="flex items-center gap-1.5 text-on-surface-variant text-body-sm font-body-sm">
+<span class="material-symbols-outlined text-[16px] text-secondary">history_edu</span>
+<span>2 foto jejak terlampir</span>
+</div>
+<div class="flex items-center gap-1.5">
+<button aria-label="Simpan ke Bookmark" class="w-9 h-9 rounded-full bg-surface-container flex items-center justify-center text-primary hover:bg-surface-dim transition-colors" onclick="toggleBookmark(this)">
+<span class="material-symbols-outlined text-[19px]">bookmark</span>
+</button>
+<a aria-label="Navigasi ke Pantai Pulau Merah" class="w-9 h-9 rounded-full bg-primary-container text-on-primary flex items-center justify-center shadow-sm hover:scale-105 active:scale-95 transition-transform" data-path="peta-pantai" href="#">
+<span class="material-symbols-outlined text-[18px]">directions</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Empty State Fallback (Hidden by default) -->
+<div class="hidden px-space-md py-12 flex-col items-center justify-center text-center" id="empty-state">
+<div class="w-20 h-20 rounded-full bg-surface-container-high flex items-center justify-center text-primary-container/60 mb-3 shadow-inner">
+<span class="material-symbols-outlined text-[36px]">beach_access</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary">Pantai Tidak Ditemukan</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant max-w-xs mt-1">
+      Coba sesuaikan kata kunci pencarian atau ubah filter status kunjungan Anda.
+    </p>
+<button class="mt-4 px-4 py-2 rounded-full bg-primary text-on-primary font-label-md text-label-md shadow-sm" onclick="resetFilters()">
+      Kembalikan Semua Pantai
+    </button>
+</div>
+<!-- Modal Konfirmasi Hapus Pantai -->
+<div class="fixed inset-0 z-50 bg-primary/40 backdrop-blur-sm hidden items-center justify-center p-space-md" id="delete-modal">
+<div class="bg-surface-container-lowest rounded-2xl p-space-lg w-full max-w-sm shadow-[0_12px_36px_rgba(27,59,72,0.18)]">
+<div class="w-12 h-12 rounded-full bg-error-container text-error flex items-center justify-center mx-auto mb-3">
+<span class="material-symbols-outlined text-[26px]">delete_sweep</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary text-center">Hapus Dari Jurnal?</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant text-center mt-1">
+        Destinasi ini beserta log catatan kunjungan akan dihapus dari daftar jelajah Anda.
+      </p>
+<div class="flex items-center gap-2 mt-5">
+<button class="flex-1 py-2.5 rounded-full bg-surface-container font-label-md text-label-md text-primary font-semibold" onclick="closeDeleteModal()">
+          Batal
+        </button>
+<button class="flex-1 py-2.5 rounded-full bg-error text-on-error font-label-md text-label-md font-semibold shadow-sm" id="btn-confirm-delete" onclick="executeDelete()">
+          Ya, Hapus
+        </button>
+</div>
+</div>
+</div>
+<!-- Toast Notification -->
+<div class="fixed bottom-24 left-1/2 -translate-x-1/2 z-50 bg-primary text-on-primary font-body-sm text-body-sm px-4 py-2 rounded-full shadow-lg opacity-0 transition-opacity pointer-events-none flex items-center gap-2" id="toast">
+<span class="material-symbols-outlined text-[18px] text-secondary-fixed">info</span>
+<span id="toast-message">Status diperbarui</span>
+</div>
+</div>
+<script>
+  let currentCardToDelete = null;
+  let activeFilter = 'semua';
+
+  // Inisialisasi gestur swipe kartu
+  document.querySelectorAll('.beach-card').forEach(card => {
+    const content = card.querySelector('.card-content');
+    let startX = 0;
+    let currentX = 0;
+    let isSwiping = false;
+
+    content.addEventListener('touchstart', (e) => {
+      startX = e.touches[0].clientX;
+      isSwiping = true;
+    }, { passive: true });
+
+    content.addEventListener('touchmove', (e) => {
+      if (!isSwiping) return;
+      currentX = e.touches[0].clientX - startX;
+      // Batasi swipe hanya ke arah kiri (maksimal -100px)
+      if (currentX < 0 && currentX > -120) {
+        content.style.transform = `translateX(${currentX}px)`;
+      }
+    }, { passive: true });
+
+    content.addEventListener('touchend', () => {
+      if (!isSwiping) return;
+      isSwiping = false;
+      if (currentX < -60) {
+        // Tahan posisi swipe terbuka
+        content.style.transform = 'translateX(-96px)';
+      } else {
+        // Kembali ke posisi normal
+        content.style.transform = 'translateX(0px)';
+      }
+    });
+
+    // Reset posisi saat diklik di luar area swipe
+    content.addEventListener('click', () => {
+      if (content.style.transform.includes('-96px')) {
+        content.style.transform = 'translateX(0px)';
+      }
+    });
+  });
+
+  // Filter Chip Logic
+  function setFilter(filterType, element) {
+    activeFilter = filterType;
+    document.querySelectorAll('.filter-chip').forEach(btn => {
+      btn.className = 'filter-chip px-3.5 py-1.5 rounded-full font-label-md text-label-md transition-all duration-200 bg-surface-container text-on-surface-variant hover:bg-surface-container-high';
+    });
+    element.className = 'filter-chip px-3.5 py-1.5 rounded-full font-label-md text-label-md transition-all duration-200 bg-primary text-on-primary shadow-sm';
+
+    filterList();
+  }
+
+  // Live Search & Filter Evaluation
+  const searchInput = document.getElementById('search-input');
+  if (searchInput) {
+    searchInput.addEventListener('input', () => {
+      filterList();
+    });
+  }
+
+  function filterList() {
+    const query = (document.getElementById('search-input')?.value || '').toLowerCase();
+    const cards = document.querySelectorAll('.beach-card');
+    let visibleCount = 0;
+
+    cards.forEach(card => {
+      const title = card.querySelector('h2').textContent.toLowerCase();
+      const location = card.querySelector('.truncate').textContent.toLowerCase();
+      const status = card.getAttribute('data-status');
+
+      const matchesQuery = title.includes(query) || location.includes(query);
+      const matchesFilter = activeFilter === 'semua' || status === activeFilter;
+
+      if (matchesQuery && matchesFilter) {
+        card.style.display = 'block';
+        visibleCount++;
+      } else {
+        card.style.display = 'none';
+      }
+    });
+
+    const emptyState = document.getElementById('empty-state');
+    if (emptyState) {
+      if (visibleCount === 0) {
+        emptyState.classList.remove('hidden');
+        emptyState.classList.add('flex');
+      } else {
+        emptyState.classList.add('hidden');
+        emptyState.classList.remove('flex');
+      }
+    }
+  }
+
+  function resetFilters() {
+    if (searchInput) searchInput.value = '';
+    const defaultBtn = document.querySelector('[data-filter="semua"]');
+    if (defaultBtn) setFilter('semua', defaultBtn);
+  }
+
+  // Sorting Logic
+  function sortCards(type) {
+    const list = document.getElementById('beach-card-list');
+    const cards = Array.from(list.getElementsByClassName('beach-card'));
+
+    cards.sort((a, b) => {
+      if (type === 'terdekat') {
+        return parseFloat(a.dataset.distance) - parseFloat(b.dataset.distance);
+      } else if (type === 'rating') {
+        return parseFloat(b.dataset.rating) - parseFloat(a.dataset.rating);
+      } else if (type === 'terbaru') {
+        return new Date(b.dataset.date) - new Date(a.dataset.date);
+      }
+      return 0;
+    });
+
+    cards.forEach(card => list.appendChild(card));
+    showToast(`Daftar diurutkan: ${type.charAt(0).toUpperCase() + type.slice(1)}`);
+  }
+
+  // Delete Action Modal
+  function confirmDelete(id) {
+    currentCardToDelete = id;
+    const modal = document.getElementById('delete-modal');
+    modal.classList.remove('hidden');
+    modal.classList.add('flex');
+  }
+
+  function closeDeleteModal() {
+    const modal = document.getElementById('delete-modal');
+    modal.classList.add('hidden');
+    modal.classList.remove('flex');
+    currentCardToDelete = null;
+  }
+
+  function executeDelete() {
+    if (!currentCardToDelete) return;
+    const card = document.querySelector(`.beach-card[data-id="${currentCardToDelete}"]`);
+    if (card) {
+      card.style.transition = 'all 0.3s ease-out';
+      card.style.opacity = '0';
+      card.style.transform = 'scale(0.9)';
+      setTimeout(() => {
+        card.remove();
+        filterList();
+        showToast('Pantai berhasil dihapus dari jurnal');
+      }, 300);
+    }
+    closeDeleteModal();
+  }
+
+  // Bookmark Toggle
+  function toggleBookmark(button) {
+    const icon = button.querySelector('.material-symbols-outlined');
+    const isBookmarked = icon.style.fontVariationSettings?.includes("'FILL' 1");
+    if (isBookmarked) {
+      icon.style.fontVariationSettings = "'FILL' 0";
+      button.classList.remove('text-secondary');
+      button.classList.add('text-primary');
+      showToast('Dihapus dari simpanan');
+    } else {
+      icon.style.fontVariationSettings = "'FILL' 1";
+      button.classList.add('text-secondary');
+      button.classList.remove('text-primary');
+      showToast('Disimpan ke daftar favorit');
+    }
+  }
+
+  // Toast Function
+  function showToast(message) {
+    const toast = document.getElementById('toast');
+    const msg = document.getElementById('toast-message');
+    if (!toast || !msg) return;
+    msg.textContent = message;
+    toast.style.opacity = '1';
+    setTimeout(() => {
+      toast.style.opacity = '0';
+    }, 2000);
+  }
+</script></main><div class="fixed bottom-24 right-space-md z-40"><a aria-label="Tambah Pantai Baru" class="w-14 h-14 rounded-full bg-primary text-on-primary flex items-center justify-center shadow-[0_8px_20px_rgba(1,37,50,0.28)] hover:scale-105 active:scale-95 transition-all" data-path="form-tambah-pantai" href="#"><span class="material-symbols-outlined text-[28px]">add</span></a></div><nav class="fixed bottom-0 inset-x-0 z-50 pb-safe bg-surface-container-low/90 backdrop-blur-xl shadow-[0_-2px_12px_rgba(27,59,72,0.06)]" data-active-classes="text-primary font-title-sm"><div class="flex justify-around items-center h-16 px-space-xs"><a class="flex flex-col items-center justify-center w-16 h-12 text-on-surface-variant hover:text-primary transition-colors group" data-path="beranda" href="#"><span class="material-symbols-outlined text-[22px] group-hover:-translate-y-0.5 transition-transform">home</span><span class="font-label-sm text-label-sm mt-0.5">Beranda</span></a><a aria-current="page" class="flex flex-col items-center justify-center w-16 h-12 transition-colors group text-primary font-title-sm" data-path="jelajah-pantai" href="#"><span class="material-symbols-outlined text-[22px] group-hover:-translate-y-0.5 transition-transform">explore</span><span class="font-label-sm text-label-sm mt-0.5">Jelajah</span></a><a class="flex flex-col items-center justify-center w-16 h-12 text-on-surface-variant hover:text-primary transition-colors group" data-path="peta-pantai" href="#"><span class="material-symbols-outlined text-[22px] group-hover:-translate-y-0.5 transition-transform">location_on</span><span class="font-label-sm text-label-sm mt-0.5">Peta</span></a><a class="flex flex-col items-center justify-center w-16 h-12 text-on-surface-variant hover:text-primary transition-colors group" data-path="jurnal-saya" href="#"><span class="material-symbols-outlined text-[22px] group-hover:-translate-y-0.5 transition-transform">book</span><span class="font-label-sm text-label-sm mt-0.5">Jurnal</span></a></div></nav>
+
+</body></html>

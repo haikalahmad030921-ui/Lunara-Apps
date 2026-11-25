@@ -1,0 +1,317 @@
+<!DOCTYPE html><html lang="id"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"><meta content="mobile_stack" name="shell-type"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{width:100%;margin:0;padding:0;background-color:#fbf9f5;}body{overscroll-behavior-y:none;-webkit-tap-highlight-color:transparent;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"background":"#fbf9f5","primary-container":"#1b3b48","on-tertiary-container":"#a8a08c","inverse-primary":"#abcbdc","surface-dim":"#dbdad6","surface-tint":"#446371","secondary":"#9a442d","surface-container-highest":"#e4e2de","on-error":"#ffffff","tertiary-container":"#3c3728","on-error-container":"#93000a","on-primary-fixed-variant":"#2c4b58","on-secondary":"#ffffff","inverse-on-surface":"#f2f0ed","on-surface":"#1b1c1a","on-primary":"#ffffff","on-tertiary-fixed-variant":"#4c4636","surface-container-low":"#f5f3ef","secondary-container":"#fc9174","on-secondary-fixed-variant":"#7c2e19","outline":"#72787b","tertiary-fixed-dim":"#cfc6b0","on-secondary-fixed":"#3c0800","on-tertiary":"#ffffff","tertiary-fixed":"#ece2cc","on-primary-fixed":"#001f2a","on-tertiary-fixed":"#201b0e","surface-variant":"#e4e2de","surface-bright":"#fbf9f5","surface-container":"#efeeea","on-background":"#1b1c1a","tertiary":"#262214","primary":"#012532","secondary-fixed-dim":"#ffb4a1","inverse-surface":"#30312e","on-primary-container":"#85a5b4","surface-container-lowest":"#ffffff","error":"#ba1a1a","secondary-fixed":"#ffdbd2","outline-variant":"#c2c7cb","on-surface-variant":"#42484b","error-container":"#ffdad6","surface-container-high":"#eae8e4","primary-fixed":"#c7e7f8","primary-fixed-dim":"#abcbdc","surface":"#fbf9f5","on-secondary-container":"#742814"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"gutter-mobile":"0.75rem","space-lg":"1.5rem","space-sm":"0.5rem","space-xs":"0.25rem","space-xl":"2.5rem","space-md":"1rem","margin-mobile":"1rem","gutter":"1rem","margin":"1.5rem"},fontFamily:{"body-sm":["Plus Jakarta Sans"],"headline-lg":["Playfair Display"],"display-lg":["Playfair Display"],"headline-sm":["Playfair Display"],"label-sm":["Plus Jakarta Sans"],"headline-md":["Playfair Display"],"title-md":["Plus Jakarta Sans"],"display-md":["Playfair Display"],"headline-lg-mobile":["Playfair Display"],"label-lg":["Plus Jakarta Sans"],"title-sm":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"label-md":["Plus Jakarta Sans"],"title-lg":["Plus Jakarta Sans"]},fontSize:{"body-sm":["12px",{"lineHeight":"18px","fontWeight":"400"}],"headline-lg":["30px",{"lineHeight":"38px","fontWeight":"600"}],"display-lg":["48px",{"lineHeight":"56px","letterSpacing":"-0.02em","fontWeight":"600"}],"headline-sm":["18px",{"lineHeight":"24px","fontWeight":"500"}],"label-sm":["10px",{"lineHeight":"14px","letterSpacing":"0.08em","fontWeight":"700"}],"headline-md":["22px",{"lineHeight":"28px","fontWeight":"500"}],"title-md":["16px",{"lineHeight":"22px","fontWeight":"600"}],"display-md":["36px",{"lineHeight":"44px","letterSpacing":"-0.01em","fontWeight":"600"}],"headline-lg-mobile":["26px",{"lineHeight":"32px","fontWeight":"600"}],"label-lg":["13px",{"lineHeight":"18px","letterSpacing":"0.04em","fontWeight":"600"}],"title-sm":["14px",{"lineHeight":"20px","fontWeight":"600"}],"body-md":["14px",{"lineHeight":"22px","fontWeight":"400"}],"body-lg":["16px",{"lineHeight":"26px","fontWeight":"400"}],"label-md":["11px",{"lineHeight":"16px","letterSpacing":"0.06em","fontWeight":"600"}],"title-lg":["20px",{"lineHeight":"26px","fontWeight":"600"}]}}}};</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface font-body-md text-on-surface antialiased min-h-screen flex flex-col"><header class="fixed top-0 inset-x-0 z-50 bg-surface/85 backdrop-blur-xl pt-safe shadow-[0_1px_8px_rgba(27,59,72,0.05)]"><div class="h-16 px-space-md flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm min-w-0"><button aria-label="Kembali" class="w-11 h-11 flex items-center justify-center rounded-full text-primary hover:bg-surface-container transition-colors -ml-2" onclick="history.back()"><span class="material-symbols-outlined text-[24px]">arrow_back</span></button><img alt="Lunara Travel" class="h-7 w-auto object-contain flex-shrink-0" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB-RY6OUgXlo7iWR25e6SF4g_NhaarAryyAuq5j_U4fMokIzxOnyfNAiWvbrJQL4pAvCX1EXcuOZosYkXxvdtGXo5dDoPh0YoZQqwG5yFpwppxhaL7ZAPMjXdj0P1dIxywFEa1PO5KdeVLEXZ5tG1CcUUevaxDjyiEVyk4OTwkrwtFASwuVmwLOnGR16oYCC1sGKSJxJEfGgoG-xX7rPIbC7COn_vBy4ED6d8c5EyyclTAGsKUoP7M1"><h1 class="font-headline-md text-headline-sm text-primary tracking-tight truncate">Detail Destinasi - Lunara Travel</h1></div><div class="flex items-center gap-space-xs flex-shrink-0"><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shadow-sm"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex flex-col relative w-full pt-16 pb-safe bg-surface min-h-screen"><div class="flex flex-col w-full relative">
+<!-- Top Hero Header Bleed -->
+<div class="relative w-full h-[360px] overflow-hidden">
+<div class="w-full h-full bg-cover bg-center transition-transform duration-700 ease-out transform scale-105" data-alt="Scenic aerial viewpoint of Pantai Menganti in Kebumen Central Java at golden sunset, magnificent emerald green karst cliffs plunging into turquoise rolling waves of the Indian Ocean, soft warm sunlight glistening on white sea spray, cinematic high-end travel magazine photography style with rich earth tones and tranquil mood" id="hero-image" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCmrLrm8zVidc6WmM031JH5KhmZ7cKMLDnDIqZnhQ9y5UJoMKTkSqk6lnAvR83_UUCP6032ei3_EvnZ9SaiTH56bseO0s31JqR-eD6CmPvn4nXGDevGN0r4LqyjPHCyV2aoTLT1xjLweZQOUDetbhzeyue8tJhAx4zaVx05KVe4w3cLi3NGxRZhFdZGsuu6Qa3LM2ZSO2iKh4WllVs9dCtmKpvrbJq2pSEtTvVr-Ro')">
+</div>
+<!-- Multi-tier Gradient Scrim for Legibility & Architectural Mood -->
+<div class="absolute inset-0 bg-gradient-to-t from-background via-primary/30 to-black/40"></div>
+<!-- Floating Top Utility Overlay Buttons -->
+<div class="absolute top-4 inset-x-0 px-margin flex items-center justify-between z-10">
+<button aria-label="Kembali ke daftar pantai" class="w-10 h-10 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-primary flex items-center justify-center shadow-md active:scale-95 transition-all" onclick="history.back()">
+<span class="material-symbols-outlined text-[20px]">arrow_back</span>
+</button>
+<div class="flex items-center gap-space-xs">
+<button aria-label="Simpan ke favorit" class="w-10 h-10 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-secondary flex items-center justify-center shadow-md active:scale-90 transition-all" id="btn-bookmark" onclick="toggleBookmark()">
+<span class="material-symbols-outlined text-[22px]" id="bookmark-icon" style="font-variation-settings: 'FILL' 1;">bookmark</span>
+</button>
+<button aria-label="Bagikan detail pantai" class="w-10 h-10 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-primary flex items-center justify-center shadow-md active:scale-95 transition-all" id="btn-share" onclick="shareLocation()">
+<span class="material-symbols-outlined text-[20px]">share</span>
+</button>
+</div>
+</div>
+<!-- Bottom Scrim Beach Hero Details -->
+<div class="absolute bottom-4 inset-x-0 px-margin flex flex-col gap-space-xs z-10">
+<div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed w-max shadow-sm">
+<span class="material-symbols-outlined text-[14px]">verified</span>
+<span class="font-label-sm uppercase tracking-wider">Sudah Dikunjungi pada 14 Okt 2024</span>
+</div>
+<h1 class="font-headline-lg-mobile text-white tracking-tight drop-shadow-sm">
+        Pantai Menganti
+      </h1>
+<div class="flex items-center gap-1.5 text-surface-container-low text-body-sm drop-shadow">
+<span class="material-symbols-outlined text-[16px] text-secondary-container">location_on</span>
+<span class="font-body-sm line-clamp-1">Karangduwur, Ayah, Kabupaten Kebumen, Jawa Tengah</span>
+</div>
+</div>
+</div>
+<!-- Content Container with Warm Editorial Architecture -->
+<div class="flex flex-col px-margin -mt-2 z-20 pb-28 gap-space-lg">
+<!-- 4 Pilar Quick Metrics Box -->
+<section class="grid grid-cols-2 gap-space-xs bg-surface-container-lowest rounded-xl p-space-sm shadow-md">
+<!-- Metrik 1: Jarak -->
+<div class="flex items-center gap-space-sm p-space-sm rounded-lg bg-surface-container-low">
+<div class="w-9 h-9 rounded-full bg-primary/10 text-primary flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-[20px]">near_me</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-on-surface-variant uppercase tracking-wider">Jarak</span>
+<span class="font-title-sm text-primary truncate">24.5 km</span>
+</div>
+</div>
+<!-- Metrik 2: Rating -->
+<div class="flex items-center gap-space-sm p-space-sm rounded-lg bg-surface-container-low">
+<div class="w-9 h-9 rounded-full bg-secondary/10 text-secondary flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-on-surface-variant uppercase tracking-wider">Rating</span>
+<span class="font-title-sm text-primary truncate">4.8 <span class="font-body-sm text-on-surface-variant font-normal">(420)</span></span>
+</div>
+</div>
+<!-- Metrik 3: Tiket Masuk -->
+<div class="flex items-center gap-space-sm p-space-sm rounded-lg bg-surface-container-low">
+<div class="w-9 h-9 rounded-full bg-primary/10 text-primary flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-[20px]">confirmation_number</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-on-surface-variant uppercase tracking-wider">Tiket</span>
+<span class="font-title-sm text-primary truncate">Rp 20.000</span>
+</div>
+</div>
+<!-- Metrik 4: Waktu Terbaik -->
+<div class="flex items-center gap-space-sm p-space-sm rounded-lg bg-surface-container-low">
+<div class="w-9 h-9 rounded-full bg-secondary-container/30 text-secondary flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-[20px]">wb_twilight</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-on-surface-variant uppercase tracking-wider">Waktu Baik</span>
+<span class="font-title-sm text-primary truncate">Sore / Sunset</span>
+</div>
+</div>
+</section>
+<!-- Mini Map Box -->
+<section class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[20px]">map</span>
+<h2 class="font-title-md text-primary">Titik Koordinat &amp; Akses</h2>
+</div>
+<span class="font-label-md text-secondary">GPS Aktif</span>
+</div>
+<div class="relative w-full rounded-xl overflow-hidden shadow-sm bg-surface-container">
+<!-- Interactive Map Frame with Data Location Pipeline -->
+<div class="w-full h-44 bg-cover bg-center flex items-center justify-center relative" data-location="Pantai Menganti, Kebumen, Jawa Tengah" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDLSdT93B-cN8ek61Usv4JdcEHxPE65ETqfk8xPCQG2z4Ssy_fovaYiJ6tnCl4Y8Vk7n537z1OvYSPNSoZFTb7LfIY-2oaRANVYZ5W38ijNAuwcwzKbXdX-efqth1VTcOi6E4LPa5xGYjIoCUOIcU8EGpfG0DXdKXuXlj6roV-5R2puBZsh6-zOCPe2bGn7-f0gjqIoy-vme812Q7R7supEUF45WjrTdbSKYqsi09M')">
+<div class="absolute inset-0 bg-primary/10 backdrop-blur-[1px]"></div>
+<!-- Central Pulse Marker -->
+<div class="relative z-10 flex flex-col items-center">
+<span class="relative flex h-8 w-8 items-center justify-center">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-secondary opacity-75"></span>
+<span class="relative inline-flex rounded-full h-7 w-7 bg-secondary text-white items-center justify-center shadow-lg">
+<span class="material-symbols-outlined text-[16px]">waves</span>
+</span>
+</span>
+<div class="bg-surface-container-lowest/90 px-2 py-0.5 mt-1 rounded text-primary font-label-sm shadow-sm backdrop-blur-sm">
+              Pantai Menganti
+            </div>
+</div>
+</div>
+<!-- Floating Card in Map Preview -->
+<div class="p-space-sm bg-surface-container-lowest flex items-center justify-between gap-space-sm">
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-on-surface-variant">Rute Jalur Selatan</span>
+<span class="font-body-sm text-primary font-semibold truncate">Via Jalur Lintas Selatan (JLS) Kebumen</span>
+</div>
+<button class="px-space-md py-2 bg-surface-container hover:bg-surface-container-high text-primary rounded-full font-label-md flex items-center gap-1.5 flex-shrink-0 transition-colors active:scale-95" onclick="openExternalMap()">
+<span>Buka Petunjuk Arah</span>
+<span class="material-symbols-outlined text-[16px]">open_in_new</span>
+</button>
+</div>
+</div>
+</section>
+<!-- Fasilitas Lengkap Beach Tags -->
+<section class="flex flex-col gap-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[20px]">beach_access</span>
+<h2 class="font-title-md text-primary">Fasilitas Penunjang</h2>
+</div>
+<div class="grid grid-cols-2 gap-space-xs">
+<!-- Fasilitas 1 -->
+<div class="flex items-center gap-space-sm px-space-sm py-2.5 rounded-lg bg-surface-container-low text-primary">
+<div class="w-7 h-7 rounded-full bg-surface-container flex items-center justify-center text-primary-container flex-shrink-0">
+<span class="material-symbols-outlined text-[16px]">mosque</span>
+</div>
+<span class="font-body-md text-on-surface text-body-sm">Mushola Bersih</span>
+</div>
+<!-- Fasilitas 2 -->
+<div class="flex items-center gap-space-sm px-space-sm py-2.5 rounded-lg bg-surface-container-low text-primary">
+<div class="w-7 h-7 rounded-full bg-surface-container flex items-center justify-center text-primary-container flex-shrink-0">
+<span class="material-symbols-outlined text-[16px]">local_parking</span>
+</div>
+<span class="font-body-md text-on-surface text-body-sm">Area Parkir Luas</span>
+</div>
+<!-- Fasilitas 3 -->
+<div class="flex items-center gap-space-sm px-space-sm py-2.5 rounded-lg bg-surface-container-low text-primary">
+<div class="w-7 h-7 rounded-full bg-surface-container flex items-center justify-center text-primary-container flex-shrink-0">
+<span class="material-symbols-outlined text-[16px]">restaurant</span>
+</div>
+<span class="font-body-md text-on-surface text-body-sm">Warung Ikan Bakar</span>
+</div>
+<!-- Fasilitas 4 -->
+<div class="flex items-center gap-space-sm px-space-sm py-2.5 rounded-lg bg-surface-container-low text-primary">
+<div class="w-7 h-7 rounded-full bg-surface-container flex items-center justify-center text-primary-container flex-shrink-0">
+<span class="material-symbols-outlined text-[16px]">photo_camera</span>
+</div>
+<span class="font-body-md text-on-surface text-body-sm">Jembatan Merah</span>
+</div>
+<!-- Fasilitas 5 -->
+<div class="flex items-center gap-space-sm px-space-sm py-2.5 rounded-lg bg-surface-container-low text-primary">
+<div class="w-7 h-7 rounded-full bg-surface-container flex items-center justify-center text-primary-container flex-shrink-0">
+<span class="material-symbols-outlined text-[16px]">camping</span>
+</div>
+<span class="font-body-md text-on-surface text-body-sm">Camping Ground</span>
+</div>
+<!-- Fasilitas 6 -->
+<div class="flex items-center gap-space-sm px-space-sm py-2.5 rounded-lg bg-surface-container-low text-primary">
+<div class="w-7 h-7 rounded-full bg-surface-container flex items-center justify-center text-primary-container flex-shrink-0">
+<span class="material-symbols-outlined text-[16px]">wc</span>
+</div>
+<span class="font-body-md text-on-surface text-body-sm">Toilet &amp; Bilas</span>
+</div>
+</div>
+</section>
+<!-- Catatan Pengalaman Pribadi (Warm Journal Postcard Style) -->
+<section class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-[20px]">edit_note</span>
+<h2 class="font-title-md text-primary">Catatan Penjelajah</h2>
+</div>
+<span class="font-label-sm text-secondary bg-secondary-fixed/50 px-2 py-0.5 rounded-full">Jurnal Pribadi</span>
+</div>
+<div class="relative bg-surface-container-low p-space-md rounded-xl shadow-sm overflow-hidden">
+<!-- Subtle warm accent spine on the left -->
+<div class="absolute left-0 top-0 bottom-0 w-1.5 bg-secondary"></div>
+<div class="flex items-start gap-space-sm pl-1">
+<span class="material-symbols-outlined text-secondary/60 text-[26px] select-none flex-shrink-0">format_quote</span>
+<div class="flex flex-col gap-space-xs">
+<p class="font-body-md text-on-surface leading-relaxed italic">
+              “Pemandangan tebing karst dan Samudra Hindia sangat spektakuler. Jalan berkelok curam, pastikan kendaraan prima. Spot terbaik melihat sunset ada di Mercusuar.”
+            </p>
+<div class="flex items-center gap-2 mt-1">
+<span class="font-label-md text-on-surface-variant font-semibold">Tips Tambahan:</span>
+<span class="font-body-sm text-on-surface-variant">Bawa jaket windbreaker saat sore tiba.</span>
+</div>
+</div>
+</div>
+<!-- Photographic Mini Gallery Snippet from Journal -->
+<div class="grid grid-cols-3 gap-space-xs mt-space-md pt-space-sm">
+<div class="h-20 rounded-lg bg-cover bg-center shadow-inner" data-alt="Close up view of the iconic red suspension bridge at Menganti beach against dramatic limestone rocks and sea waves" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCkif9BRgu_a1q840bfc6nmUVBjL5teNft2doIxGsZpfYlvQ5lcs7p108anLdlhP3WKsrCjV_S318uikGr0q3bnbJ0B9-ukBP18mfHi6OSlF36OHnawmghvfhL4U1zz6c6TVbrzivqcK4xdYpfZ-fpOP1gN3CaDLummWuoevjcmWTDuYpK-5_miQsRjDgcTV-djrfE0y3WKi0bS3g998d71V0h503NAyCD2jpTVyo0')">
+</div>
+<div class="h-20 rounded-lg bg-cover bg-center shadow-inner" data-alt="Vintage white coastal lighthouse standing tall on top of grassy hill during sunset at Pantai Menganti Kebumen" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAU257XZi0lVwru9GLRQYciRmIVHmJCw9WbDAFr55ZOq8RdSQCYKvkCz3xVEo2un1XW_FKlXEAv917PbaDYTIo5ohkt1n63rGusDVeQ15I4dWvoy8m9a7znSLUIz4jvp52nFR0CEUygQS_TFgxErpCC8JGw0mQWy-pSBU0o3SF7nwiRsj7pFgKMpU-GPAfvTQNA4PhR40IZ4qxaKdnvOoY395YhUJ8Kq1KfBYY2IjU')">
+</div>
+<div class="h-20 rounded-lg bg-cover bg-center shadow-inner" data-alt="Traditional grilled fish served with sambal and fresh coconut on rustic wooden table overlooking the sea" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCWimjIAXKIcUYTTRn14j0NbZJ1HWauzxfV6FTJ1-slazSUkpDOmlydxfjBedbiOvxbc3mhPDeLtCK2aw7-glWVyCNWhvdmQkdIlHf3RcECHw3lUTeNb8vBebiTYyL0TVpO9Xrko1yXOP0woJ9G9qSnSQVa9hBIIiycK9Znx7sXJZsOm3OtqtsjVGKmEFd7iwu8EQpEW_RO3ZIdi6Itz0gwy5uj89nt0dbfPmsSMnI')">
+</div>
+</div>
+</div>
+</section>
+<!-- Weather & Tide Capsule Bar -->
+<div class="p-space-sm bg-primary-container text-on-primary rounded-xl flex items-center justify-between shadow-sm">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary-fixed text-[24px]">air</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-on-primary-container">Kondisi Angin &amp; Ombak</span>
+<span class="font-title-sm text-white">12 knot • Ombak 1.4m (Aman)</span>
+</div>
+</div>
+<div class="text-right">
+<span class="font-label-sm text-primary-fixed uppercase tracking-wider">Pasang Laut</span>
+<div class="font-title-sm text-white">17:45 WIB</div>
+</div>
+</div>
+</div>
+<!-- Bottom Floating Sticky Action Bar -->
+<div class="fixed bottom-0 inset-x-0 z-40 bg-surface/90 backdrop-blur-xl px-margin py-3 pb-safe shadow-[0_-4px_20px_rgba(27,59,72,0.08)]">
+<div class="max-w-md mx-auto flex items-center gap-space-sm">
+<!-- Edit Button -->
+<button aria-label="Edit catatan pantai" class="w-12 h-12 rounded-full bg-surface-container hover:bg-surface-container-high text-primary flex items-center justify-center flex-shrink-0 transition-transform active:scale-90" onclick="handleEditNote()">
+<span class="material-symbols-outlined text-[20px]">edit</span>
+</button>
+<!-- Delete Button -->
+<button aria-label="Hapus dari daftar kunjungan" class="w-12 h-12 rounded-full bg-surface-container hover:bg-error-container text-on-surface-variant hover:text-error flex items-center justify-center flex-shrink-0 transition-all active:scale-90" onclick="handleDeletePrompt()">
+<span class="material-symbols-outlined text-[20px]">delete</span>
+</button>
+<!-- Main Navigation Action CTA -->
+<button class="flex-1 h-12 bg-primary hover:bg-primary-container text-on-primary rounded-full px-space-lg flex items-center justify-center gap-2 shadow-md active:scale-95 transition-all" onclick="startNavigation()">
+<span class="material-symbols-outlined text-[20px]">directions_car</span>
+<span class="font-title-sm font-semibold tracking-wide">Navigasi Rute</span>
+</button>
+</div>
+</div>
+<!-- Interactive Feedback Toast Container -->
+<div class="fixed bottom-24 left-1/2 transform -translate-x-1/2 bg-inverse-surface text-inverse-on-surface px-4 py-2 rounded-full text-body-sm shadow-xl opacity-0 pointer-events-none transition-opacity duration-300 z-50 flex items-center gap-2" id="toast">
+<span class="material-symbols-outlined text-[18px] text-secondary-fixed">info</span>
+<span id="toast-text">Tersimpan</span>
+</div>
+</div>
+<script>
+  function showToast(message) {
+    const toast = document.getElementById('toast');
+    const toastText = document.getElementById('toast-text');
+    if (!toast || !toastText) return;
+    toastText.textContent = message;
+    toast.classList.remove('opacity-0', 'pointer-events-none');
+    toast.classList.add('opacity-100');
+    setTimeout(() => {
+      toast.classList.remove('opacity-100');
+      toast.classList.add('opacity-0', 'pointer-events-none');
+    }, 2400);
+  }
+
+  function toggleBookmark() {
+    const icon = document.getElementById('bookmark-icon');
+    if (!icon) return;
+    const isFilled = icon.style.fontVariationSettings.includes("'FILL' 1");
+    if (isFilled) {
+      icon.style.fontVariationSettings = "'FILL' 0";
+      showToast('Dihapus dari daftar simpanan');
+    } else {
+      icon.style.fontVariationSettings = "'FILL' 1";
+      showToast('Tersimpan di Jejak Favorit');
+    }
+  }
+
+  function shareLocation() {
+    if (navigator.share) {
+      navigator.share({
+        title: 'Pantai Menganti Kebumen',
+        text: 'Eksplorasi panorama tebing karst dan sunset memukau di Pantai Menganti!',
+        url: window.location.href,
+      }).catch(() => {});
+    } else {
+      showToast('Tautan pantai disalin ke clipboard');
+    }
+  }
+
+  function openExternalMap() {
+    showToast('Membuka rute koordinat Menganti...');
+    setTimeout(() => {
+      window.open('https://maps.google.com/?q=Pantai+Menganti+Kebumen', '_blank');
+    }, 400);
+  }
+
+  function startNavigation() {
+    showToast('Memulai panduan navigasi langsung...');
+    setTimeout(() => {
+      window.open('https://www.google.com/maps/dir/?api=1&destination=Pantai+Menganti+Kebumen', '_blank');
+    }, 300);
+  }
+
+  function handleEditNote() {
+    showToast('Membuka formulir catatan jurnal...');
+  }
+
+  function handleDeletePrompt() {
+    if (confirm('Hapus Pantai Menganti dari histori kunjungan Anda?')) {
+      showToast('Kunjungan berhasil dihapus');
+      setTimeout(() => history.back(), 800);
+    }
+  }
+</script></main>
+
+</body></html>
